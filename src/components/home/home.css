@@ -1,0 +1,224 @@
+.numbers{
+    background-color: #ab3550;
+    padding: 30px 10px;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+}
+.numbers h5{
+    font-size: 12px ;
+   letter-spacing: 1px;
+}
+.numbers h5:hover{
+    color: grey;
+}
+/* ingerdiant */
+.ingredients{
+    padding: 80px 0;
+}
+.ingredients img{
+    max-width: 100%;
+    border-radius: 10px;
+    align-content: center;
+    overflow: hidden;
+}
+.ingredients .content{
+    text-align: left;
+}
+.ingredients h1{
+    padding: 30px 0;
+    color: #ab3550;
+    width: 80%;
+}
+.ingredients p{
+    color: #999;
+    width: 80%;
+}
+.ingredients button, .foods button,.Baked button,.Subscribe button{
+    background-color: #ab3550;
+    padding: 10px 20px;
+    color: white;
+    border: 3px solid #ab3550;
+}
+.ingredients a{
+    text-decoration: none;
+}
+.ingredients button:hover ,.foods button:hover, .Baked button:hover,.Subscribe button:hover{
+    background-color: white;
+    color: #ab3550;
+    border: 3px solid #ab3550;
+    transition: .4s ease-in-out;
+}
+.ingredients ul{
+    color: #444;
+    list-style: none;
+}
+.ingredients ul li i{
+    color: #ab3550;
+    margin-left: -30px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.stomach{
+    background: url(./../../data/food.png) center no-repeat;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 40px;
+}
+.stomach h1{
+    padding: 70px 0 30px;
+   line-height: 50px;
+    color: #ab3550;
+}
+.stomach .vedio{
+    padding: 80px 10px;
+}
+.stomach .vedio a{
+    text-decoration: none;
+    color: black;
+
+}
+.stomach .vedio a:hover,.stomach .vedio a i:hover{
+    color: #ab3550;
+    transition: .4s ease;
+}
+.foods{
+    padding-top: 120px;
+}
+.foods h1{
+    color: #ab3550;
+    padding-bottom: 30px;
+}
+.foods img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.foods .meals{
+    text-align: left;
+    
+}
+.foods h5{
+    color: #ab3550;
+}
+.foods p{
+    margin: 5px 0 20px;
+}
+.foods p:last-of-type{
+    color: #555;
+    font-weight: bold;
+}
+.foods .frist{
+    margin: 20px 0 40px;
+}
+.foods button{
+    margin-bottom: 20px;
+}
+.slide{
+    background-color: #ab3550;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 120px 0 50px;
+    height: auto;
+}
+.slide h2{
+    color: white;
+    padding: 10px 0 60px;
+}
+.slide img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 250px;   
+}
+
+.slide .row{
+    max-width: 100%;
+    
+}
+.slide.carousel {
+    background-color: white;
+    border-radius: 10px;
+    width: 80%;
+    left: 10%;
+}
+.slide.carousel p{
+    color: #444;
+    
+    position: absolute;
+    left: 15%;
+    bottom: 80%;
+    display: block;
+}
+.slide.carousel h3{
+    color: #ab3550;
+}
+
+.carousel-indicators{
+    bottom: -50px !important;
+}
+.carousel-indicators button{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+}
+.Questions{
+    padding: 120px 0 80px;
+    
+}
+.Questions h1{
+    padding-bottom: 50px;
+}
+.Questions div {
+    text-align: left;
+}
+.Questions h5 span{
+    color: #ab3550;
+}
+.Questions p{
+    color: #555;
+}
+.Baked{
+    background: url(./../../data/baked3.jpg) center no-repeat;
+    width: 100%;
+    max-width: 100%;
+    padding: 50px 0;
+    background-size: cover;
+    margin-bottom: 70px;
+    position: relative;
+    background-color: rgb(110, 51, 51);
+}
+/* .Baked::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0,.9);
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+} */
+.Baked h4{
+    color: #fff;
+}
+.Subscribe{
+    padding: 70px 0;
+}
+.Subscribe h1{
+    color: #ab3550;
+}
+.Subscribe p{
+    color: #444;
+    padding: 10px 0;
+}
+.Subscribe input{
+    width: 30%;
+    margin-right: 20px;
+    height: 50px;
+}
+.Subscribe input:focus{
+    outline: none;
+}

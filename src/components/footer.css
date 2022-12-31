@@ -1,0 +1,26 @@
+.footer{
+    background-color: #ab3550;
+    padding: 60px 0;
+}
+.footer  ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer li{
+    list-style: none;
+    
+}
+.footer  a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.footer a:hover{
+    color: rgb(162, 162, 61);
+    text-decoration: underline;
+}
+.footer p{
+    color: white;
+}
