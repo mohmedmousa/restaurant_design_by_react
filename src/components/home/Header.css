@@ -1,0 +1,41 @@
+header{
+    background: url(./../../data/header.jpg) center no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    text-align: left;
+    max-width: 100%;
+    width: 100%;
+}
+.content{
+    padding-left: 30px;
+}
+header h1{
+    color: #ab3550;
+    font-size: 50px;
+    padding-top: 200px;
+    line-height: 60px;
+    width: 80%;
+}
+header button{
+    width: 150px;
+    height: 50px;
+    border: 3px solid #ab3550;
+    background-color: #ab3550;
+    text-transform: uppercase;
+    margin: 80px 10px;
+}
+header .last{
+    background-color: white;
+    border: 3px solid white;
+}
+header button:hover{
+    transition: .2s ease-in-out;
+}
+header .frist:hover{
+    background-color: white;
+}
+header .last:hover{
+    color: #ab3550;
+    border: 3px solid #ab3550;
+}

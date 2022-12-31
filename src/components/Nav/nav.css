@@ -1,0 +1,19 @@
+/* .root{
+    background-color: rgb(233, 240, 233) !important;
+} */
+nav a{
+    color: #ab3550 !important;
+}
+.number{
+    border: 2px solid #ab3550;
+    background-color: #ab3550;
+    color: white !important;
+}
+.number:hover{
+    background-color: transparent;
+    color: #ab3550 !important;
+    transition: .5s ease-in-out;
+}
+.text-secondary{
+    color: #333 !important;
+}
